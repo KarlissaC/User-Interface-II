@@ -62,7 +62,7 @@ table {
 
 a{
     text-decoration: none;
-    color:#38ccb7;
+    color:#68228B;
     font-size: 1rem;
 }
 
@@ -79,7 +79,7 @@ h1,h2{
 }
 
 .menu{
-    background: #333333;
+    background: #68228B;
     display:flex;
     align-items: center;
     align-content: center;
@@ -111,7 +111,7 @@ h1,h2{
 
 .selected{
     background: #38ccb7;
-    color:#333333;
+    color:#68228B;
 }
 
 .wrapper{
@@ -140,17 +140,17 @@ h1,h2{
 }
 
 .solid {
-    background-color: #333333;
+    background-color: #68228B;
 }
 
 h1{
     font-size: 4rem;
     text-shadow:
-      3px 3px 0 #333333,
-    -1px -1px 0 #333333,  
-     1px -1px 0 #333333,
-     -1px 1px 0 #333333,
-      1px 1px 0 #333333
+      3px 3px 0 #68228B,
+    -1px -1px 0 #68228B,  
+     1px -1px 0 #68228B,
+     -1px 1px 0 #68228B,
+      1px 1px 0 #68228B;
 }
 
 
@@ -162,13 +162,6 @@ h1{
     margin-top:1%;
 }
 
-.item img{
-    margin-bottom:1%
-    max-width:100%;
-    max-height:100%;
-    width:auto;
-}
-
 .item{
     margin: 0 0 2% 0;
     display:inline-block;
@@ -176,7 +169,7 @@ h1{
 }
 
 .footer{
-    background: #333333;
+    background: #68228B;
     display: flex;
     justify-content: center;
 }
@@ -184,7 +177,7 @@ h1{
 .nav_link:hover{
     background-color:#e4f9f5;
     border-color: #e4f9f5;
-    color: #333333;
+    color: #68228B;
     -webkit-animation: flip-horizontal-bottom 0.4s cubic-bezier(0.455, 0.030, 0.515, 0.955) both;
     animation: flip-horizontal-bottom 0.4s cubic-bezier(0.455, 0.030, 0.515, 0.955) both;
 }
@@ -217,5 +210,5 @@ h1{
       -webkit-transform: rotateX(0);
               transform: rotateX(0);
     }
-  }
+}
   
