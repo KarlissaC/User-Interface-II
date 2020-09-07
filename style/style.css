@@ -182,7 +182,7 @@ h1{
     animation: flip-horizontal-bottom 0.4s cubic-bezier(0.455, 0.030, 0.515, 0.955) both;
 }
 
-/* Skip to content class for screen readers. */
+
 .skip-to-content-link {
     background: #333333;
     height: 30px;
@@ -193,15 +193,12 @@ h1{
     transition: transform 0.3s;
   }
   
-  /* Skip to content while focused: Brings it into focus for screen-reader or keyboard users. */
+ 
   .skip-to-content-link:focus {
     transform: translateY(0%);
   }
   
-  /* ----------------------------------------------
-      MEDIA QUERIES
-     ----------------------------------------------
-  */
+  
   
   /* The first breakpoint that needs to be adjusted is the iPad Pro layout. Adjusted it to work better with the iPad. */
   @media (max-width:1024px){
